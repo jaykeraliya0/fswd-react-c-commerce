@@ -1,4 +1,3 @@
-"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { Navigation, Autoplay } from "swiper/modules";
