@@ -1,0 +1,173 @@
+[
+  {
+    "id": "7a8b3e1d9f4c0e5a8b2d1f7e",
+    "name": "Foaming HandWash Pump",
+    "coverImage": "/images/products/foaming-hand-wash/3.jpg",
+    "images": [
+      "/images/products/foaming-hand-wash/1.jpg",
+      "/images/products/foaming-hand-wash/2.jpg",
+      "/images/products/foaming-hand-wash/3.jpg"
+    ],
+    "price": 299,
+    "description": "HELGEN hand foaming soap is a pleasant and effective way to cleanse your hands while also promoting good hygiene practices. This soap comes in a convenient smooth, foaming formula that is easy to dispense and lathers quickly, making it perfect for use in high-traffic areas like restrooms and kitchens. One of the main benefits of using a foaming hand soap is that it requires less water to rinse off than traditional liquid soap. This can help to conserve water and reduce the amount of soap that goes down the drain, making it an environmentally friendly choice. In addition to its cleaning power, HELGEN hand foaming soap is also formulated to be gentle on the skin. It formulated with with mild cleansing agents and moisturizers to help keep all types of skin feeling soft and smooth. t is also free from harsh chemicals, making it a good choice for those with sensitive skin. even with frequent use. Overall, HELGEN hand foaming soap is a simple and effective way to keep your hands clean and promote good hygiene practices in your home or workplace.",
+    "reviews": [
+      {
+        "id": "f0c2e9a8b3d6e5f1c8a7b0e",
+        "title": "Good Product",
+        "description": "This is a good product. I like it very much. I will buy it again.",
+        "rating": 4.5,
+        "user": {
+          "id": "4f5c2d7e1a8b3f9e0c6a5b8d",
+          "name": "John Doe",
+          "email": "johndoe@mail.com",
+          "role": "user"
+        }
+      },
+      {
+        "id": "3c2d1e5f4a8b7c6d5e0f9a",
+        "title": "Nice Product",
+        "description": "I like this product. Packaging is good.",
+        "rating": 4.4,
+        "user": {
+          "id": "b1a2c3d4e5f6a7b8c9d0",
+          "name": "Lily Doe",
+          "email": "lily.doe@email.com",
+          "role": "user"
+        }
+      }
+    ],
+    "quantity": [
+      { "name": 0.25, "inStock": true },
+      { "name": 0.5, "inStock": true },
+      { "name": 1, "inStock": false }
+    ],
+    "details": {
+      "Item Form": "Foam, Soap",
+      "Skin Type": "All",
+      "Brand": "HELGEN",
+      "Scent": "Strawberry, Lavender",
+      "Material Feature": "Dermatologist Tested",
+      "Age Range (Description)": "Adult",
+      "Number of Items": "2",
+      "Special Feature": "Moisturizing"
+    },
+    "about": [
+      "Economical",
+      "Easy to dispense",
+      "Gentle on skin",
+      "Pleasant fragrance"
+    ]
+  },
+  {
+    "id": "f1e2d3c4b5a6f7e8d9c0",
+    "name": "Natural Mosquito Repellent",
+    "coverImage": "/images/products/mosquito-repellent/3.jpg",
+    "images": [
+      "/images/products/mosquito-repellent/1.jpg",
+      "/images/products/mosquito-repellent/2.jpg",
+      "/images/products/mosquito-repellent/3.jpg"
+    ],
+    "price": 199,
+    "description": "HELGEN Insect Repellent is formulated with a blend of herbal essential oils, including eucalyptus, Neem, lemongrass, and citronella, to function as a herbal armour (protective shield) against insects including mosquitoes, fleas, and ants. With the natural composition of this DEET-free natural insect repellent, kids can enjoy their playtime without fear of mosquito bites, dengue, malaria, or other harmful diseases caused by pesky insects. A spray of this natural repellent on exposed body parts of children can keep them safe at all times and in all places. Safe for infants aged 3+ months and above. Why HELGEN Provides 3-way protection: HELGEN spray 100% insect repellent spray gives 3-way protection to the children against mosquitos, fleas, and ants. Safe for infants: This mosquito repellent is made from pure and natural oils such as eucalyptus, lemongrass, and citronella, making it suitable for infants aged 3 months and above. 100% Ayurvedic formula: All of the chemicals in HELGEN spray Insect Repellent are natural and devoid of toxins, making it completely safe to use on baby's sensitive skin. Easy to use and travel-friendly: HELGEN spray roll-on can be sprayed directly on exposed skin. The spray is portable and may be kept in first-aid kits, pockets, backpacks, purses, and bags. Toxin-free environment: This all-natural Ayurvedic formula is devoid of DEET, parabens, and synthetic fragrances.",
+    "reviews": [
+      {
+        "id": "9a8b7c6d5e4f3a2b1c0",
+        "title": "Good Product",
+        "description": "This is a good product. I like it very much. I will buy it again.",
+        "rating": 3.5,
+        "user": {
+          "id": "4f5c2d7e1a8b3f9e0c6a5b8d",
+          "name": "John Doe",
+          "email": "johndoe@mail.com",
+          "role": "user"
+        }
+      },
+      {
+        "id": "5e4d3c2b1a0f9e8d7c6",
+        "title": "Nice Product",
+        "description": "I like this product. Packaging is good.",
+        "rating": 3.4,
+        "user": {
+          "id": "b1a2c3d4e5f6a7b8c9d0",
+          "name": "Lily Doe",
+          "email": "lily.doe@email.com",
+          "role": "user"
+        }
+      }
+    ],
+    "quantity": [
+      { "name": 0.25, "inStock": true },
+      { "name": 0.5, "inStock": true }
+    ],
+    "details": {
+      "Brand": "HELGEN",
+      "Scent": "Cedarwood,Citronella,Lemongrass",
+      "Item Volume": "200 Milliliters",
+      "Material Feature": "Biodegradable, Natural",
+      "Item Form": "Oil"
+    },
+    "about": [
+      "Provides 3-way protection",
+      "100% Ayurvedic formula",
+      "Easy to use and travel-friendly",
+      "Toxin-free environment"
+    ]
+  },
+  {
+    "id": "6a5b4c3d2e1f0a9b8c7",
+    "name": "Floor Cleaner",
+    "coverImage": "/images/products/floor-cleaner/3.jpg",
+    "images": [
+      "/images/products/floor-cleaner/1.jpg",
+      "/images/products/floor-cleaner/2.jpg",
+      "/images/products/floor-cleaner/3.jpg"
+    ],
+    "price": 499,
+    "description": "HELGEN is a concentrated Floor and General purpose cleaner cum sanitizer and deodorizer. It is ideal for the quick and gentle clean and maintain various types of flooring, such as tile, hardwood, laminate, and linoleum. HELGEN is perfect for homes with pets and kids! It's formulated with a special cleaning agent that quickly and effectively lifts dirt, grime, and tough stains from any floor surface. Plus, it's safe to use on a variety of materials, including wood, vinyl, tile, and laminate. With its pleasant scent and non-toxic formula, this cleaner will leave your floors looking and smelling fresh and clean. Enjoy sparkling clean and streak-free floors with this easy-to-use floor cleaner.",
+    "reviews": [
+      {
+        "id": "3d4e5f6a7b8c9d0e1f2",
+        "title": "Good Product",
+        "description": "This is a good product. I like it very much. I will buy it again.",
+        "rating": 4.5,
+        "user": {
+          "id": "f8e7d6c5b4a3f2e1d0",
+          "name": "John Doe",
+          "email": "johndoe@mail.com",
+          "role": "user"
+        }
+      },
+      {
+        "id": "e9f0a1b2c3d4e5f6a7",
+        "title": "Nice Product",
+        "description": "I like this product. Packaging is good.",
+        "rating": 4.4,
+        "user": {
+          "id": "b1a2c3d4e5f6a7b8c9d0",
+          "name": "Lily Doe",
+          "email": "lily.doe@email.com",
+          "role": "user"
+        }
+      }
+    ],
+    "quantity": [
+      { "name": 0.25, "inStock": true },
+      { "name": 0.5, "inStock": false },
+      { "name": 1, "inStock": true }
+    ],
+    "details": {
+      "Type": "Floor Cleaner",
+      "Series": "Lemon",
+      "Character": "Super Clean, Power Clean",
+      "Suitable for": "Floor, Surface",
+      "Applicator Type": "Floor Cleaning",
+      "Non-alcoholic": "Yes",
+      "Fragrance": "Lemon"
+    },
+    "about": [
+      "Non-alcoholic",
+      "Fragrance: Lemon",
+      "Suitable for Floor, Surface"
+    ]
+  }
+]
