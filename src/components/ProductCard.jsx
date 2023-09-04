@@ -3,6 +3,7 @@ import { Fragment, useState } from "react";
 import { Dialog, RadioGroup, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { StarIcon } from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -241,12 +242,12 @@ export default function ProductCard({ product }) {
                             </button>
 
                             <p className="absolute top-4 left-4 text-center sm:static sm:mt-8">
-                              <a
-                                href={`/product/${product.id}`}
+                              <Link
+                                to={`/product/${product.id}`}
                                 className="font-medium text-blue-600 hover:text-blue-500"
                               >
                                 View full details
-                              </a>
+                              </Link>
                             </p>
                           </form>
                         </section>
