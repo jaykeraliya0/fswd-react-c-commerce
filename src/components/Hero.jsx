@@ -14,21 +14,21 @@ const classNames = (...classes) => {
 
 const slides = [
   {
-    description: "Lorem ipsum dolor sit amet.",
-    color: "from-pink-500",
-    bg: "https://images.unsplash.com/photo-1474770337042-bd7e2ccb4f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+    description: "Premium Quality Laptops",
+    color: "from-black",
+    bg: "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1778&q=80",
     image: "/images/mck.png",
   },
   {
-    description: "Lorem ipsum dolor sit amet.",
-    color: "from-teal-500",
-    bg: "https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    description: "Exclusive Accessories",
+    color: "from-rose-950",
+    bg: "https://images.unsplash.com/photo-1566793474285-2decf0fc182a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     image: "/images/mck.png",
   },
   {
-    description: "Lorem ipsum dolor sit amet.",
-    color: "from-green-500",
-    bg: "https://images.unsplash.com/photo-1560211653-55f9fb833a8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    description: "High end Computer Parts",
+    color: "from-green-950",
+    bg: "https://images.unsplash.com/photo-1601153211050-ae2e1fa428d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     image: "/images/mck.png",
   },
 ];
