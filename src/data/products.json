@@ -15,10 +15,10 @@
         "id": "f0c2e9a8b3d6e5f1c8a7b0e",
         "title": "Good Product",
         "description": "This is a good product. I like it very much. I will buy it again.",
-        "rating": 4.5,
+        "rating": 3.5,
         "user": {
           "id": "4f5c2d7e1a8b3f9e0c6a5b8d",
-          "name": "John Doe",
+          "name": "Maria Doe",
           "email": "johndoe@mail.com",
           "role": "user"
         }
@@ -77,7 +77,7 @@
         "rating": 3.5,
         "user": {
           "id": "4f5c2d7e1a8b3f9e0c6a5b8d",
-          "name": "John Doe",
+          "name": "Maria Doe",
           "email": "johndoe@mail.com",
           "role": "user"
         }
@@ -132,7 +132,7 @@
         "rating": 4.5,
         "user": {
           "id": "f8e7d6c5b4a3f2e1d0",
-          "name": "John Doe",
+          "name": "Maria Doe",
           "email": "johndoe@mail.com",
           "role": "user"
         }

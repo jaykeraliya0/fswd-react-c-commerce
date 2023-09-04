@@ -45,9 +45,9 @@ export default function ProductCard({ product }) {
               out of 5 stars
             </p>
             <div className="flex items-center">
-              {[0, 1, 2, 3, 4].map((rating) => (
+              {[0, 1, 2, 3, 4].map((rating, i) => (
                 <StarIcon
-                  key={productRating}
+                  key={i}
                   className={classNames(
                     productRating > rating
                       ? "text-yellow-400"

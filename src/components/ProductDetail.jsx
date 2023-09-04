@@ -24,9 +24,9 @@ export default function ProductDetail({ product }) {
             <span className="sr-only"> out of 5 stars</span>
           </p>
           <div className="ml-1 flex items-center">
-            {[0, 1, 2, 3, 4].map((rating) => (
+            {[0, 1, 2, 3, 4].map((rating, i) => (
               <StarIcon
-                key={productRating}
+                key={i}
                 className={classNames(
                   productRating > rating ? "text-yellow-400" : "text-gray-200",
                   "h-5 w-5 flex-shrink-0"
