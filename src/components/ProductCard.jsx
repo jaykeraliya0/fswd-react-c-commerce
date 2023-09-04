@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import { Dialog, RadioGroup, Transition } from "@headlessui/react";
+import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
@@ -10,7 +10,6 @@ function classNames(...classes) {
 
 export default function ProductCard({ product }) {
   const [open, setOpen] = useState(false);
-  const [selectedQuantity, setSelectedQuantity] = useState(product.quantity[0]);
 
   const productRating =
     product.reviews.reduce((sum, review) => sum + review.rating, 0) /
@@ -28,7 +27,7 @@ export default function ProductCard({ product }) {
             alt={product.name}
             width={600}
             height={600}
-            className="h-full w-full object-cover object-center"
+            className="h-52 w-full object-cover object-center"
           />
         </div>
         <div className="pt-10 pb-4 text-center">
@@ -186,53 +185,6 @@ export default function ProductCard({ product }) {
                           </h3>
 
                           <form>
-                            <div className="mt-8">
-                              <div className="flex items-center justify-between">
-                                <h4 className="text-sm font-medium text-gray-900">
-                                  Quantity
-                                </h4>
-                              </div>
-
-                              <RadioGroup
-                                value={selectedQuantity}
-                                onChange={setSelectedQuantity}
-                                className="mt-2"
-                              >
-                                <RadioGroup.Label className="sr-only">
-                                  {" "}
-                                  Choose a quantity{" "}
-                                </RadioGroup.Label>
-                                <div className="grid grid-cols-7 gap-2">
-                                  {product.quantity.map((q) => (
-                                    <RadioGroup.Option
-                                      key={q.name}
-                                      value={q}
-                                      className={({ active, checked }) =>
-                                        classNames(
-                                          q.inStock
-                                            ? "cursor-pointer focus:outline-none"
-                                            : "opacity-25 cursor-not-allowed",
-                                          active
-                                            ? "ring-2 ring-offset-2 ring-blue-500"
-                                            : "",
-                                          checked
-                                            ? "bg-blue-600 border-transparent text-white hover:bg-blue-700"
-                                            : "bg-white border-gray-200 text-gray-900 hover:bg-gray-50",
-                                          "border rounded-md py-3 px-3 flex items-center justify-center text-sm font-medium uppercase sm:flex-1"
-                                        )
-                                      }
-                                      disabled={!q.inStock}
-                                    >
-                                      <RadioGroup.Label as="span">
-                                        {q.name < 1 ? q.name * 1000 : q.name}
-                                        &nbsp;
-                                        {q.name < 1 ? "mL" : "L"}
-                                      </RadioGroup.Label>
-                                    </RadioGroup.Option>
-                                  ))}
-                                </div>
-                              </RadioGroup>
-                            </div>
                             <button
                               type="submit"
                               className="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 py-3 px-8 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"

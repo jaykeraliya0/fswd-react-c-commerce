@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard";
 import data from "../data/products.json";
 
 export default function FeaturedProducts() {
-  const products = data;
+  const products = data.slice(0, 4);
 
   return (
     <div className="bg-white my-10">

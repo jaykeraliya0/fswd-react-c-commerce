@@ -2,28 +2,28 @@ import CategoryCard from "./CategoryCard";
 
 const categories = [
   {
-    id: "1",
-    title: "Hand Wash",
-    description: "Foam, Gel, Liquid, Refill & more",
-    image: "/images/category/hand-wash.jpg",
+    id: 1,
+    title: "Laptops",
+    image:
+      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
   },
   {
-    id: "2",
-    title: "Surface Cleaner",
-    description: "Disinfectant, Spray, Wipes & more",
-    image: "/images/category/super-clean.jpg",
+    id: 2,
+    title: "Accessories",
+    image:
+      "https://images.unsplash.com/photo-1566793474285-2decf0fc182a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
   },
   {
-    id: "3",
-    title: "Laundry Detergent",
-    description: "Powder, Liquid, Pods, Refill & more",
-    image: "/images/category/power-fresh.webp",
+    id: 3,
+    title: "Computer Parts",
+    image:
+      "https://images.unsplash.com/photo-1602837385569-08ac19ec83af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1852&q=80",
   },
   {
-    id: "4",
-    title: "Mosquito Repellent",
-    description: "Coil, Liquid, Spray, Refill & more",
-    image: "/images/category/spray.jpg",
+    id: 4,
+    title: "Peripherals",
+    image:
+      "https://images.unsplash.com/photo-1656071830624-06aa347f99a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
   },
 ];
 

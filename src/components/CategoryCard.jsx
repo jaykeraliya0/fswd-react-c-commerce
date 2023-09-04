@@ -9,7 +9,7 @@ export default function CategoryCard({ id, title, image }) {
           alt={image}
           width={600}
           height={600}
-          className="h-full w-full object-cover object-center bg-gray-200"
+          className="h-52 sm:h-72 w-full object-cover bg-gray-200"
         />
       </div>
       <div className="pt-5 text-center">

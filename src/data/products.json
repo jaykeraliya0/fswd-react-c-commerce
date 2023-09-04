@@ -1,15 +1,17 @@
 [
   {
-    "id": "7a8b3e1d9f4c0e5a8b2d1f7e",
-    "name": "Foaming HandWash Pump",
-    "coverImage": "https://images.unsplash.com/photo-1615900119312-2acd3a71f3aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    "id": "1",
+    "name": "Premium Business Laptop | Core i5 1235G | 14 inch, 8GB RAM, 512GB SSD, Windows 10 Pro",
+    "coverImage": "https://images.unsplash.com/photo-1648197395199-e7f8d3dd0a3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1911&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-      "https://images.unsplash.com/photo-1585832622886-272fb3a927e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-      "https://images.unsplash.com/photo-1584949514123-474cfa705dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+      "https://images.unsplash.com/photo-1555340627-20a4c7029632?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
+      "https://images.unsplash.com/photo-1595245150898-339b88a9d477?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1544603396-e4a163c7c658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "https://images.unsplash.com/photo-1595245150759-dfc2b400b940?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     ],
-    "price": 299,
-    "description": "HELGEN hand foaming soap is a pleasant and effective way to cleanse your hands while also promoting good hygiene practices. This soap comes in a convenient smooth, foaming formula that is easy to dispense and lathers quickly, making it perfect for use in high-traffic areas like restrooms and kitchens. One of the main benefits of using a foaming hand soap is that it requires less water to rinse off than traditional liquid soap. This can help to conserve water and reduce the amount of soap that goes down the drain, making it an environmentally friendly choice. In addition to its cleaning power, HELGEN hand foaming soap is also formulated to be gentle on the skin. It formulated with with mild cleansing agents and moisturizers to help keep all types of skin feeling soft and smooth. t is also free from harsh chemicals, making it a good choice for those with sensitive skin. even with frequent use. Overall, HELGEN hand foaming soap is a simple and effective way to keep your hands clean and promote good hygiene practices in your home or workplace.",
+    "price": 64999,
+    "description": "Appreciate this laptop's smooth operations and strong performance, which is packed with innovative features. With the help of a graphics card and processor from Intel's 12th generation, you can easily perform at your peak. Additionally, this laptop's integrated 4USB connections enable you to do your tasks quickly. Fast-booting technology on this laptop also makes it possible for you to take everything you need with you. Moreover, because of its modest weight, it is portable and a fantastic travel companion.",
+    "category": ["laptop", "computer", "electronics"],
     "reviews": [
       {
         "id": "f0c2e9a8b3d6e5f1c8a7b0e",
@@ -36,42 +38,40 @@
         }
       }
     ],
-    "quantity": [
-      { "name": 0.25, "inStock": true },
-      { "name": 0.5, "inStock": true },
-      { "name": 1, "inStock": false }
-    ],
     "details": {
-      "Item Form": "Foam, Soap",
-      "Skin Type": "All",
-      "Brand": "HELGEN",
-      "Scent": "Strawberry, Lavender",
-      "Material Feature": "Dermatologist Tested",
-      "Age Range (Description)": "Adult",
-      "Number of Items": "2",
-      "Special Feature": "Moisturizing"
+      "processor": "Intel Core i5 11th Gen",
+      "ram": "8 GB DDR4 3200 MHz",
+      "storage": "512 GB SSD",
+      "displaySize": "35.56 cm (14 inch)",
+      "displayResolution": "1920 x 1080 Pixel",
+      "keyboard": "Full Size Island-style Backlit Keyboard",
+      "pointerDevice": "Touchpad",
+      "internalMic": "Built-in Microphone",
+      "wirelessLan": "Intel Wi-Fi 6 AX201 (2x2)",
+      "bluetooth": "v5.2",
+      "usbSlots": "1 x SuperSpeed USB Type C, 2 x SuperSpeed USB Type A, 1 x USB 2.0 Type A",
+      "headphoneJack": "1 x Headphone/Microphone Combo Jack"
     },
     "about": [
-      "Economical",
-      "Easy to dispense",
-      "Gentle on skin",
-      "Pleasant fragrance"
+      "This laptop is a great choice for those who want to get the most out of their computing experience. It has a powerful processor and plenty of storage space, so you can store all your files without worrying about running out of room. The battery life is also impressive, lasting up to 10 hours on a single charge. You'll be able to work or play for hours without having to plug in!",
+      "This laptop is perfect for anyone who needs a powerful computer that can handle anything they throw at it. It's also great for students because it has an affordable price tag and long battery life. You won't regret buying this laptop!"
     ]
   },
   {
-    "id": "f1e2d3c4b5a6f7e8d9c0",
-    "name": "Natural Mosquito Repellent",
-    "coverImage": "https://images.unsplash.com/photo-1615900119312-2acd3a71f3aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    "id": "2",
+    "name": "Gaming Laptop | Core i7 12650H | 14 inch, 16GB RAM, 512GB SSD, NVIDIA GeForce RTX 4050",
+    "coverImage": "https://images.unsplash.com/photo-1605134513573-384dcf99a44c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-      "https://images.unsplash.com/photo-1585832622886-272fb3a927e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-      "https://images.unsplash.com/photo-1584949514123-474cfa705dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+      "https://images.unsplash.com/photo-1640695257754-7e2932f9ad0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1625266008996-67bc5f9ffb40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
+      "https://images.unsplash.com/photo-1581351123004-757df051db8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
     ],
-    "price": 199,
-    "description": "HELGEN Insect Repellent is formulated with a blend of herbal essential oils, including eucalyptus, Neem, lemongrass, and citronella, to function as a herbal armour (protective shield) against insects including mosquitoes, fleas, and ants. With the natural composition of this DEET-free natural insect repellent, kids can enjoy their playtime without fear of mosquito bites, dengue, malaria, or other harmful diseases caused by pesky insects. A spray of this natural repellent on exposed body parts of children can keep them safe at all times and in all places. Safe for infants aged 3+ months and above. Why HELGEN Provides 3-way protection: HELGEN spray 100% insect repellent spray gives 3-way protection to the children against mosquitos, fleas, and ants. Safe for infants: This mosquito repellent is made from pure and natural oils such as eucalyptus, lemongrass, and citronella, making it suitable for infants aged 3 months and above. 100% Ayurvedic formula: All of the chemicals in HELGEN spray Insect Repellent are natural and devoid of toxins, making it completely safe to use on baby's sensitive skin. Easy to use and travel-friendly: HELGEN spray roll-on can be sprayed directly on exposed skin. The spray is portable and may be kept in first-aid kits, pockets, backpacks, purses, and bags. Toxin-free environment: This all-natural Ayurvedic formula is devoid of DEET, parabens, and synthetic fragrances.",
+    "price": 99999,
+    "description": "Appreciate this laptop's smooth operations and strong performance, which is packed with innovative features. With the help of a graphics card and processor from Intel's 12th generation, you can easily perform at your peak. Additionally, this laptop's integrated 4USB connections enable you to do your tasks quickly. Fast-booting technology on this laptop also makes it possible for you to take everything you need with you. Moreover, because of its modest weight, it is portable and a fantastic travel companion.",
+    "category": ["laptop", "computer", "electronics"],
     "reviews": [
       {
-        "id": "9a8b7c6d5e4f3a2b1c0",
+        "id": "f0c2e9a8b3d6e5f1c8a7b0e",
         "title": "Good Product",
         "description": "This is a good product. I like it very much. I will buy it again.",
         "rating": 3.5,
@@ -83,62 +83,7 @@
         }
       },
       {
-        "id": "5e4d3c2b1a0f9e8d7c6",
-        "title": "Nice Product",
-        "description": "I like this product. Packaging is good.",
-        "rating": 3.4,
-        "user": {
-          "id": "b1a2c3d4e5f6a7b8c9d0",
-          "name": "Lily Doe",
-          "email": "lily.doe@email.com",
-          "role": "user"
-        }
-      }
-    ],
-    "quantity": [
-      { "name": 0.25, "inStock": true },
-      { "name": 0.5, "inStock": true }
-    ],
-    "details": {
-      "Brand": "HELGEN",
-      "Scent": "Cedarwood,Citronella,Lemongrass",
-      "Item Volume": "200 Milliliters",
-      "Material Feature": "Biodegradable, Natural",
-      "Item Form": "Oil"
-    },
-    "about": [
-      "Provides 3-way protection",
-      "100% Ayurvedic formula",
-      "Easy to use and travel-friendly",
-      "Toxin-free environment"
-    ]
-  },
-  {
-    "id": "6a5b4c3d2e1f0a9b8c7",
-    "name": "Floor Cleaner",
-    "coverImage": "https://images.unsplash.com/photo-1615900119312-2acd3a71f3aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-      "https://images.unsplash.com/photo-1585832622886-272fb3a927e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-      "https://images.unsplash.com/photo-1584949514123-474cfa705dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
-    ],
-    "price": 499,
-    "description": "HELGEN is a concentrated Floor and General purpose cleaner cum sanitizer and deodorizer. It is ideal for the quick and gentle clean and maintain various types of flooring, such as tile, hardwood, laminate, and linoleum. HELGEN is perfect for homes with pets and kids! It's formulated with a special cleaning agent that quickly and effectively lifts dirt, grime, and tough stains from any floor surface. Plus, it's safe to use on a variety of materials, including wood, vinyl, tile, and laminate. With its pleasant scent and non-toxic formula, this cleaner will leave your floors looking and smelling fresh and clean. Enjoy sparkling clean and streak-free floors with this easy-to-use floor cleaner.",
-    "reviews": [
-      {
-        "id": "3d4e5f6a7b8c9d0e1f2",
-        "title": "Good Product",
-        "description": "This is a good product. I like it very much. I will buy it again.",
-        "rating": 4.5,
-        "user": {
-          "id": "f8e7d6c5b4a3f2e1d0",
-          "name": "Maria Doe",
-          "email": "johndoe@mail.com",
-          "role": "user"
-        }
-      },
-      {
-        "id": "e9f0a1b2c3d4e5f6a7",
+        "id": "3c2d1e5f4a8b7c6d5e0f9a",
         "title": "Nice Product",
         "description": "I like this product. Packaging is good.",
         "rating": 4.4,
@@ -150,24 +95,175 @@
         }
       }
     ],
-    "quantity": [
-      { "name": 0.25, "inStock": true },
-      { "name": 0.5, "inStock": false },
-      { "name": 1, "inStock": true }
-    ],
     "details": {
-      "Type": "Floor Cleaner",
-      "Series": "Lemon",
-      "Character": "Super Clean, Power Clean",
-      "Suitable for": "Floor, Surface",
-      "Applicator Type": "Floor Cleaning",
-      "Non-alcoholic": "Yes",
-      "Fragrance": "Lemon"
+      "processor": "Intel Core i7 12th Gen",
+      "ram": "16 GB DDR5 6400 MHz",
+      "storage": "512 GB SSD",
+      "displaySize": "35.56 cm (14 inch)",
+      "displayResolution": "1920 x 1080 Pixel",
+      "keyboard": "Full Size Island-style Backlit Keyboard",
+      "pointerDevice": "Touchpad",
+      "internalMic": "Built-in Microphone",
+      "wirelessLan": "Intel Wi-Fi 6 AX201 (2x2)",
+      "bluetooth": "v5.2",
+      "usbSlots": "2 x SuperSpeed USB Type C, 2 x SuperSpeed USB Type A, 1 x USB 2.0 Type A",
+      "headphoneJack": "1 x Headphone/Microphone Combo Jack"
     },
     "about": [
-      "Non-alcoholic",
-      "Fragrance: Lemon",
-      "Suitable for Floor, Surface"
+      "This laptop is a great choice for those who want to get the most out of their computing experience. It has a powerful processor and plenty of storage space, so you can store all your files without worrying about running out of room. The battery life is also impressive, lasting up to 10 hours on a single charge. You'll be able to work or play for hours without having to plug in!",
+      "This laptop is perfect for anyone who needs a powerful computer that can handle anything they throw at it. It's also great for students because it has an affordable price tag and long battery life. You won't regret buying this laptop!"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Premium keyboard | 10 m Range | 104 Keys",
+    "coverImage": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1572916118970-fb5c8a1cb3d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80",
+      "https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1898&q=80"
+    ],
+    "price": 999,
+    "description": "Appreciate this keyboard's smooth operations and strong performance, which is packed with innovative features. With the help of a wireless connection, you can easily perform at your peak. Additionally, this keyboard's integrated 4USB connections enable you to do your tasks quickly. Fast-booting technology on this keyboard also makes it possible for you to take everything you need with you. Moreover, because of its modest weight, it is portable and a fantastic travel companion.",
+    "category": ["keyboard", "computer", "electronics"],
+    "reviews": [
+      {
+        "id": "f0c2e9a8b3d6e5f1c8a7b0e",
+        "title": "Good Product",
+        "description": "This is a good product. I like it very much. I will buy it again.",
+        "rating": 3.5,
+        "user": {
+          "id": "4f5c2d7e1a8b3f9e0c6a5b8d",
+          "name": "Maria Doe",
+          "email": "johndoe@mail.com",
+          "role": "user"
+        }
+      },
+      {
+        "id": "3c2d1e5f4a8b7c6d5e0f9a",
+        "title": "Nice Product",
+        "description": "I like this product. Packaging is good.",
+        "rating": 4.4,
+        "user": {
+          "id": "b1a2c3d4e5f6a7b8c9d0",
+          "name": "Lily Doe",
+          "email": "lily.doe@email.com",
+          "role": "user"
+        }
+      }
+    ],
+    "details": {
+      "connectivity": "Wired",
+      "range": "10 m",
+      "keys": "104",
+      "keyboardType": "Standard",
+      "keyboardLayout": "QWERTY",
+      "keyMechanism": "Membrane",
+      "keyTravel": "2.0 mm",
+      "keyLife": "10 million keystrokes"
+    },
+    "about": [
+      "This keyboard is a great choice for those who want to get the most out of their computing experience. It has a powerful processor and plenty of storage space, so you can store all your files without worrying about running out of room. The battery life is also impressive, lasting up to 10 hours on a single charge. You'll be able to work or play for hours without having to plug in!",
+      "This keyboard is perfect for anyone who needs a powerful computer that can handle anything they throw at it. It's also great for students because it has an affordable price tag and long battery life. You won't regret buying this keyboard!"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Gaming Mouse | 10 m Range | 6 Buttons",
+    "coverImage": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1619334084350-b093f0a9b40e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1616071358409-ef30a44a90bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    ],
+    "price": 899,
+    "description": "Appreciate this mouse's smooth operations and strong performance, which is packed with innovative features. With the help of a wireless connection, you can easily perform at your peak. Additionally, this mouse's integrated 4USB connections enable you to do your tasks quickly. Fast-booting technology on this mouse also makes it possible for you to take everything you need with you. Moreover, because of its modest weight, it is portable and a fantastic travel companion.",
+    "category": ["mouse", "computer", "electronics"],
+    "reviews": [
+      {
+        "id": "f0c2e9a8b3d6e5f1c8a7b0e",
+        "title": "Good Product",
+        "description": "This is a good product. I like it very much. I will buy it again.",
+        "rating": 3.5,
+        "user": {
+          "id": "4f5c2d7e1a8b3f9e0c6a5b8d",
+          "name": "Maria Doe",
+          "email": "johndoe@mail.com",
+          "role": "user"
+        }
+      },
+      {
+        "id": "3c2d1e5f4a8b7c6d5e0f9a",
+        "title": "Nice Product",
+        "description": "I like this product. Packaging is good.",
+        "rating": 4.4,
+        "user": {
+          "id": "b1a2c3d4e5f6a7b8c9d0",
+          "name": "Lily Doe",
+          "email": "lily.doe@email.com",
+          "role": "user"
+        }
+      }
+    ],
+    "details": {
+      "connectivity": "Wireless",
+      "range": "10 m",
+      "buttons": "6",
+      "scrollWheel": "Yes",
+      "sensor": "Optical Sensor"
+    },
+    "about": [
+      "This mouse is a great choice for those who want to get the most out of their computing experience. It has a powerful processor and plenty of storage space, so you can store all your files without worrying about running out of room. The battery life is also impressive, lasting up to 10 hours on a single charge. You'll be able to work or play for hours without having to plug in!",
+      "This mouse is perfect for anyone who needs a powerful computer that can handle anything they throw at it. It's also great for students because it has an affordable price tag and long battery life. You won't regret buying this mouse!"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Gaming Headset | 7.1 Surround Sound | 50 mm Driver",
+    "coverImage": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2065&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1884&q=80",
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80"
+    ],
+    "price": 1999,
+    "description": "Appreciate this headset's smooth operations and strong performance, which is packed with innovative features. With the help of a wireless connection, you can easily perform at your peak. Additionally, this headset's integrated 4USB connections enable you to do your tasks quickly. Fast-booting technology on this headset also makes it possible for you to take everything you need with you. Moreover, because of its modest weight, it is portable and a fantastic travel companion.",
+    "category": ["headset", "computer", "electronics"],
+    "reviews": [
+      {
+        "id": "f0c2e9a8b3d6e5f1c8a7b0e",
+        "title": "Good Product",
+        "description": "This is a good product. I like it very much. I will buy it again.",
+        "rating": 3.5,
+        "user": {
+          "id": "4f5c2d7e1a8b3f9e0c6a5b8d",
+          "name": "Maria Doe",
+          "email": "johndoe@mail.com",
+          "role": "user"
+        }
+      },
+      {
+        "id": "3c2d1e5f4a8b7c6d5e0f9a",
+        "title": "Nice Product",
+        "description": "I like this product. Packaging is good.",
+        "rating": 4.4,
+        "user": {
+          "id": "b1a2c3d4e5f6a7b8c9d0",
+          "name": "Lily Doe",
+          "email": "lily.doe@email.com",
+          "role": "user"
+        }
+      }
+    ],
+    "details": {
+      "connectivity": "Wired",
+      "surroundSound": "7.1",
+      "driver": "50 mm",
+      "frequencyResponse": "20 Hz - 20 KHz",
+      "impedance": "32 Ohm",
+      "sensitivity": "105 dB/mW"
+    },
+    "about": [
+      "This headset is a great choice for those who want to get the most out of their computing experience. It has a powerful processor and plenty of storage space, so you can store all your files without worrying about running out of room. The battery life is also impressive, lasting up to 10 hours on a single charge. You'll be able to work or play for hours without having to plug in!",
+      "This headset is perfect for anyone who needs a powerful computer that can handle anything they throw at it. It's also great for students because it has an affordable price tag and long battery life. You won't regret buying this headset!"
     ]
   }
 ]
