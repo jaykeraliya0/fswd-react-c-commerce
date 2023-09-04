@@ -47,7 +47,7 @@ export default function Hero() {
         autoplay={{
           delay: 5000,
         }}
-        className="relative h-96"
+        className="relative h-[30rem]"
       >
         <button className="swiper-button-prev w-7 h-7 lg:h-14 lg:w-14 bg-white absolute top-[25%] lg:top-[50%] left-5 lg:left-20 rounded-full z-20 flex group">
           <ArrowLeftIcon className="h-5 w-5 lg:h-10 lg:w-10 text-gray-800 m-auto -mr-1 lg:-mr-2 group-hover:mr-0 transition-all duration-300" />
