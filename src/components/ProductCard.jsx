@@ -15,6 +15,18 @@ export default function ProductCard({ product }) {
     product.reviews.reduce((sum, review) => sum + review.rating, 0) /
     product.reviews.length;
 
+  const addToCart = () => {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const productInCart = cart.find((item) => item.id === product.id);
+    if (productInCart) {
+      productInCart.quantity++;
+    }
+    if (!productInCart) {
+      cart.push({ ...product, quantity: 1 });
+    }
+    localStorage.setItem("cart", JSON.stringify(cart));
+  };
+
   return (
     <>
       <div
@@ -186,7 +198,8 @@ export default function ProductCard({ product }) {
 
                           <form>
                             <button
-                              type="submit"
+                              type="button"
+                              onClick={addToCart}
                               className="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 py-3 px-8 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                             >
                               Add to cart

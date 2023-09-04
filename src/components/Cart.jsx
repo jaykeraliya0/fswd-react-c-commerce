@@ -1,11 +1,17 @@
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import data from "../data/products.json";
 import { Link } from "react-router-dom";
 
 export default function Cart({ open, setOpen }) {
-  const products = data.slice(0, 2);
+  const [products, setProducts] = useState(
+    JSON.parse(localStorage.getItem("cart")) || []
+  );
+
+  useEffect(() => {
+    const products = JSON.parse(localStorage.getItem("cart")) || [];
+    setProducts(products);
+  }, [products]);
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -74,7 +80,7 @@ export default function Cart({ open, setOpen }) {
                                     <div className="flex justify-between text-base font-medium text-gray-900">
                                       <h3>
                                         <Link to={`/product/${product.id}`}>
-                                          {product.name}
+                                          {product.name.slice(0, 20)}...
                                         </Link>
                                       </h3>
                                       <p className="ml-4">
@@ -89,11 +95,81 @@ export default function Cart({ open, setOpen }) {
                                     </p>
                                   </div>
                                   <div className="flex flex-1 items-end justify-between text-sm">
-                                    <p className="text-gray-500">Qty 250mL</p>
+                                    <p className="text-gray-500 flex justify-center items-center">
+                                      <div className="flex items-center border border-gray-300 rounded-md divide-x">
+                                        <button
+                                          type="button"
+                                          onClick={() => {
+                                            const cart = JSON.parse(
+                                              localStorage.getItem("cart")
+                                            );
+                                            const productInCart = cart.find(
+                                              (item) => item.id === product.id
+                                            );
+                                            if (productInCart.quantity > 1) {
+                                              productInCart.quantity--;
+                                            }
+                                            localStorage.setItem(
+                                              "cart",
+                                              JSON.stringify(cart)
+                                            );
+                                          }}
+                                          className="font-medium text-gray-400 hover:text-gray-500 px-2 py-1.5 w-8"
+                                        >
+                                          <span className="sr-only">
+                                            Reduce item quantity by 1
+                                          </span>
+                                          <span>-</span>
+                                        </button>
+                                        <div
+                                          aria-hidden="true"
+                                          className="border-gray-300 px-2 py-1.5 w-8 text-center text-black"
+                                        >
+                                          {product.quantity}
+                                        </div>
+                                        <button
+                                          type="button"
+                                          onClick={() => {
+                                            const cart = JSON.parse(
+                                              localStorage.getItem("cart")
+                                            );
+                                            const productInCart = cart.find(
+                                              (item) => item.id === product.id
+                                            );
+                                            productInCart.quantity++;
+                                            localStorage.setItem(
+                                              "cart",
+                                              JSON.stringify(cart)
+                                            );
+                                          }}
+                                          className="font-medium text-gray-400 hover:text-gray-500 px-2 py-1.5 w-8"
+                                        >
+                                          <span className="sr-only">
+                                            Increase item quantity by 1
+                                          </span>
+                                          <span>+</span>
+                                        </button>
+                                      </div>
+                                    </p>
 
                                     <div className="flex">
                                       <button
                                         type="button"
+                                        onClick={() => {
+                                          const cart = JSON.parse(
+                                            localStorage.getItem("cart")
+                                          );
+                                          const productInCart = cart.find(
+                                            (item) => item.id === product.id
+                                          );
+                                          const index =
+                                            cart.indexOf(productInCart);
+                                          cart.splice(index, 1);
+                                          localStorage.setItem(
+                                            "cart",
+                                            JSON.stringify(cart)
+                                          );
+                                        }}
                                         className="font-medium text-blue-600 hover:text-blue-500"
                                       >
                                         Remove
@@ -114,7 +190,8 @@ export default function Cart({ open, setOpen }) {
                         <p>
                           {products
                             .reduce(
-                              (total, product) => total + product.price,
+                              (acc, product) =>
+                                acc + product.price * product.quantity,
                               0
                             )
                             .toLocaleString("en-US", {
